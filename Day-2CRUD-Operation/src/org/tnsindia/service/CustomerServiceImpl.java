@@ -12,7 +12,7 @@ public class CustomerServiceImpl implements CustomerService{
 		dao=new CustomerDaoImpl();
 		
 	}
-	//creation
+	
 	@Override
 	public void addCustomer(Customer customer) {
 		dao.beginTransaction();
